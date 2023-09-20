@@ -53,7 +53,7 @@ public class StartAndFinish {
         } else if (categoryChoice == 4) {
             return HangmanUtils.getAnimals();
         } else {
-            System.out.println("Invalid category choice. Exiting...");
+            System.out.println("Invalid category choice. Select a category 1 and 4");
             System.exit(1);
             return null;
         }
